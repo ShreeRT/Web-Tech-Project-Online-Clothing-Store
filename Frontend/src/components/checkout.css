@@ -1,0 +1,88 @@
+.checkout{
+    display: inline-block;
+    width:100%;
+    color: blue;
+}
+ .checkout h2
+{
+    font-size: 22px;
+    font-weight : 700;
+    color:blue;
+    border-bottom: 5px solid;
+}
+.checkout-inner{
+    width: 70%;
+    float: left;
+    border-right: 1px solid blue;
+    padding-right:25px;
+}
+.checkout-form-steps{
+    width: 100%;
+    padding: 15px;
+    display:inline-block;
+}
+.checkout-form-steps h2{
+    font-size: 18px;
+    border-bottom: 1px solid;
+    color: blue;
+}
+.checkout-form-steps .textfield{
+    width: 30%;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid blue;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.checkout-form-steps .select{
+    width: 10%;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid blue;
+}
+.checkout-form-steps .textfield1{
+    width: 15%;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid blue;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.checkout-inner .submit-order-button{
+    width: 30%;
+    height: 50px;
+    margin: 15px;
+    border-radius: 4px;
+    float: right;
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+}
+ 
+.orderlist{
+    width: 28%;
+    float: right;
+}
+
+.orderlist h3{
+    font-size: 18px;
+    padding: 15px 0;
+    line-height: 22px;
+}
+.orderlist p{
+    padding: 15px 10px;
+    background-color: #a77a7a10;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+.orderlist p span{
+    float: right;
+}
+.text h3{
+    width: 100%;
+    font-size: 25px solid;
+    color: blue;
+    
+}
