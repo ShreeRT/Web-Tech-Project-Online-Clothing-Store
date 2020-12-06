@@ -33,7 +33,7 @@ export default class CheckoutPage extends Component
   {
     var tp=0;
     this.state.data.map((curItem)=>
-       tp+=curItem.price);
+       tp+=(curItem.price)*(curItem.quantity));
     return tp;
   }
 
